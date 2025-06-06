@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENESIS | Embryo Configuration Results</title>
+    <link rel="stylesheet" href="luxury.css">
+    <link rel="stylesheet" href="price-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body onload="loadResults()">
+    <div class="container">
+        <header>
+            <div class="brand">GENESIS</div>
+            <div class="header-center-content">
+                <a href="https://x.com/home" target="_blank" class="social-icon-link">
+                    <img src="img/twitter.png" alt="Twitter" class="header-social-icon">
+                </a>
+            </div>
+        </header>
+
+        <div id="result-container" class="result-container">
+            <h1 class="result-title">Embryo #1</h1>
+            <p class="result-subtitle">Your personalized configuration is complete</p>
+            
+            <div class="result-price">
+                <span id="price-value">$28,500</span>
+            </div>
+            
+            <section class="result-details">
+                <h2>Selected Characteristics</h2>
+                
+                <div class="result-row">
+                    <span class="feature-name">Sex</span>
+                    <span id="sex-value" class="feature-value">Female ♀</span>
+                </div>
+                
+                <h3>Appearance</h3>
+                <div class="result-row">
+                    <span class="feature-name">Eye Color</span>
+                    <span id="eye-color-value" class="feature-value">Blue</span>
+                </div>
+                
+                <div class="result-row">
+                    <span class="feature-name">Hair Color</span>
+                    <span id="hair-color-value" class="feature-value">Brown</span>
+                </div>
+                
+                <div class="result-row">
+                    <span class="feature-name">Height</span>
+                    <span id="height-value" class="feature-value">+1 inches</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Acne</span>
+                    <span id="acne-value" class="feature-value">-2 % points</span>
+                </div>
+
+                <h3>Body</h3>
+                <div class="result-row">
+                    <span class="feature-name">BMI</span>
+                    <span id="bmi-value" class="feature-value">+0 BMI units</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Chronic Pain</span>
+                    <span id="chronic-pain-value" class="feature-value">-2 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Left-handedness</span>
+                    <span id="left-handedness-value" class="feature-value">+1 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Osteoarthritis</span>
+                    <span id="osteoarthritis-value" class="feature-value">-2 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Rheumatoid Arthritis</span>
+                    <span id="rheumatoid-arthritis-value" class="feature-value">+1 % points</span>
+                </div>
+
+                <h3>Food & Diet</h3>
+                <div class="result-row">
+                    <span class="feature-name">Alcohol Dependence</span>
+                    <span id="alcohol-dependence-value" class="feature-value">+1 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Celiac Disease</span>
+                    <span id="celiac-disease-value" class="feature-value">-0 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Type 2 Diabetes</span>
+                    <span id="diabetes-value" class="feature-value">+11 % points</span>
+                </div>
+
+                <h3>Heart</h3>
+                <div class="result-row">
+                    <span class="feature-name">Coronary Artery Disease</span>
+                    <span id="coronary-artery-disease-value" class="feature-value">+1 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Hypertension</span>
+                    <span id="hypertension-value" class="feature-value">-21 % points</span>
+                </div>
+
+                <h3>Mind</h3>
+                <div class="result-row">
+                    <span class="feature-name">ADHD</span>
+                    <span id="adhd-value" class="feature-value">+0 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Alzheimer's Disease</span>
+                    <span id="alzheimers-value" class="feature-value">-8 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Anxiety</span>
+                    <span id="anxiety-value" class="feature-value">-7 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Bipolar Disorder</span>
+                    <span id="bipolar-value" class="feature-value">-0 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Depression</span>
+                    <span id="depression-value" class="feature-value">-0 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Insomnia</span>
+                    <span id="insomnia-value" class="feature-value">-4 % points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">IQ</span>
+                    <span id="iq-value" class="feature-value">+3 points</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="feature-name">Migraine</span>
+                    <span id="migraine-value" class="feature-value">+30 % points</span>
+                </div>
+            </section>
+            
+            <section class="result-details">
+                <h2>Advantages</h2>
+                <ul id="advantages-list">
+                    <li>Significantly reduced risk of hypertension (-21%)</li>
+                    <li>Reduced risk of Alzheimer's disease (-8%)</li>
+                    <li>Reduced risk of anxiety disorders (-7%)</li>
+                    <li>Reduced risk of insomnia (-4%)</li>
+                    <li>Reduced risk of severe acne (-2%)</li>
+                    <li>Improved IQ (+3 points)</li>
+                </ul>
+            </section>
+            
+            <section class="result-details">
+                <h2>Disadvantages</h2>
+                <ul id="disadvantages-list">
+                    <li>Increased risk of migraine (+30%)</li>
+                    <li>Increased risk of type 2 diabetes (+11%)</li>
+                </ul>
+            </section>
+            
+            <div class="next-container">
+                <a href="https://phantom.com" target="_blank" style="text-decoration: none;"><button id="order-button">Place Order</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

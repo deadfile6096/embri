@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENESIS | Premium Embryo Selection</title>
+    <link rel="stylesheet" href="luxury.css">
+    <link rel="stylesheet" href="price-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">GENESIS</div>
+            <div class="header-center-content">
+                <a href="https://x.com/home" target="_blank" class="social-icon-link">
+                    <img src="img/twitter.png" alt="Twitter" class="header-social-icon">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Overview</h2>
+                <div class="characteristic">
+                    <div class="char-label">Sex</div>
+                    <div class="char-value">
+                        <label class="radio-container">
+                            <input type="radio" name="gender" value="female" checked>
+                            <span class="radio-text">Female ♀</span>
+                        </label>
+                        <label class="radio-container">
+                            <input type="radio" name="gender" value="male">
+                            <span class="radio-text">Male ♂</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Appearance</h2>
+                
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">👁️</span> Eye color
+                    </div>
+                    <div class="char-value">
+                        <select id="eye-color-select" class="color-select">
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="brown">Brown</option>
+                            <option value="hazel">Hazel</option>
+                            <option value="gray">Gray</option>
+                            <option value="amber">Amber</option>
+                        </select>
+                    </div>
+                    <div class="points">
+                        <div class="point-indicator blue-point">●</div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">〰️</span> Hair color
+                    </div>
+                    <div class="char-value">
+                        <select id="hair-color-select" class="color-select">
+                            <option value="black">Black</option>
+                            <option value="brown" selected>Brown</option>
+                            <option value="blonde">Blonde</option>
+                            <option value="red">Red</option>
+                            <option value="auburn">Auburn</option>
+                            <option value="ash">Ash</option>
+                        </select>
+                    </div>
+                    <div class="points">
+                        <div class="point-indicator brown-point">●</div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">📟</span> Increased Height
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="height-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">◉</span> Severe acne prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="acne-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Body</h2>
+                
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">⭕</span> Optimal BMI
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="bmi-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🔥</span> Chronic pain resistance
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="pain-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">👋</span> Left-handedness
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="hand-toggle">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">No</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🦴</span> Osteoarthritis prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="osteo-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🦴</span> Rheumatoid arthritis prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="arthritis-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Food & diet</h2>
+                
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🍸</span> Alcohol dependence prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="alcohol-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🥖</span> Celiac disease prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="celiac-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🧪</span> Type 2 diabetes prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="diabetes-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Heart</h2>
+                
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">❤️</span> Coronary artery disease prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="cad-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">📈</span> Hypertension prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="hypertension-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Mind</h2>
+                
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🧠</span> ADHD prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="adhd-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🧠</span> Alzheimer's disease prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="alzheimer-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">😰</span> Anxiety disorders prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="anxiety-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🔄</span> Bipolar disorder prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="bipolar-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">😔</span> Depression prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="depression-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">😴</span> Insomnia prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="insomnia-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🧠</span> Enhanced IQ
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="iq-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="characteristic">
+                    <div class="char-label">
+                        <span class="char-icon">🤕</span> Migraine prevention
+                    </div>
+                    <div class="char-value">
+                        <div class="toggle-container">
+                            <label class="toggle">
+                                <input type="checkbox" id="migraine-toggle" checked>
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Yes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="next-container">
+                <button id="next-button" onclick="calculateResults()">Calculate Results</button>
+            </div>
+        </main>
+    </div>
+
+    <div class="scroll-indicator">
+        Scroll <span class="down-arrow">↓</span>
+    </div>
+
+    
+<!-- Welcome Modal -->
+<div id="welcomeModal" class="modal-overlay">
+    <div class="modal-content">
+        <h2>Welcome to GENESIS</h2>
+        <p>GENESIS is a next-generation platform in reproductive genetics.</p>
+        <p>It empowers prospective parents undergoing IVF to make informed decisions by leveraging advanced genomic analysis. GENESIS enables comprehensive DNA screening of embryos before implantation, identifying risks for over 900 inherited conditions — including cancer, cardiovascular diseases, neurological disorders, and more.</p>
+        <h3>Key features of GENESIS:</h3>
+        <ul>
+            <li>Simultaneous screening of up to 20 embryos.</li>
+            <li>Genetic insights into health, longevity, mental well-being, and cognitive potential.</li>
+            <li>Actionable reports to guide the selection of the most viable and healthy embryo.</li>
+        </ul>
+        <p>The mission of GENESIS is to improve the quality of life for future generations by minimizing genetic risks and offering a personalized, science-driven approach to family planning.</p>
+        <button id="agreeButton" class="modal-button">Agree and Continue</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
